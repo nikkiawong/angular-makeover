@@ -4,11 +4,20 @@ import FooterFeatured from './FooterFeatured';
 import Follow from './Follow';
 
 function FooterPosts(){
+  const footerPostsStyles = {
+    display: 'flex',
+    flexDirection: 'row',
+    marginLeft: '7%',
+    marginRight: '7%',
+    color: '#595959'
+  }
   return (
     <div>
-      <FooterPopular/>
-      <FooterFeatured/>
-      <Follow/>
+      <div style={footerPostsStyles}>
+        <FooterPopular/>
+        <FooterFeatured/>
+        <Follow/>
+      </div>
     </div>
   );
 }
