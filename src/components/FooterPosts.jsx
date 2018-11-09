@@ -12,8 +12,12 @@ function FooterPosts(){
     color: '#595959',
     justifyContent: 'space-between'
   }
+  const footerPostBackgroundStyles = {
+    backgroundColor: '#f9f9f9',
+    marginTop: '40px'
+  }
   return (
-    <div>
+    <div style={footerPostBackgroundStyles}>
       <div style={footerPostsStyles}>
         <FooterPopular/>
         <FooterFeatured/>

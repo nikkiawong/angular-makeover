@@ -25,8 +25,17 @@ const masterFooterPopularList = [
 ]
 
 function FooterPopular(){
+  const footerPopularStyles = {
+    width: '37%',
+    borderRight: '1px solid #d8d8d8',
+    paddingRight: '20px',
+    paddingLeft: '20px',
+    marginTop: '10px',
+    marginBottom: '10px'
+  }
   return (
-    <div>
+    <div style={footerPopularStyles}>
+      <h3>Popular Posts</h3>
       {masterFooterPopularList.map((footerPopularPost, index) =>
       <FooterPopularPost headline={footerPopularPost.headline}
       image={footerPopularPost.image}
