@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function NavLinks() {
   const navLinksBackgroundStyles = {
@@ -30,7 +31,7 @@ function NavLinks() {
         <div>
           <ul style={navLinksListStyles}>
             <li><a style={navLinksLinkStyles} href="https://ohmy.disney.com/quiz/">QUIZ</a></li>
-            <li><a style={navLinksLinkStyles} href="#">NEWS</a></li>
+            <li><Link style={navLinksLinkStyles} to="/news">NEWS</Link></li>
             <li><a style={navLinksLinkStyles} href="https://ohmy.disney.com/quotes/">QUOTES</a></li>
             <li><a style={navLinksLinkStyles} href="https://ohmy.disney.com/movies/">MOVIES</a></li>
             <li><a style={navLinksLinkStyles} href="https://ohmy.disney.com/food/">FOOD</a></li>
