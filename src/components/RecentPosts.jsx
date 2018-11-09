@@ -133,7 +133,13 @@ const masterRecentPostsList = [
 function RecentPosts(){
   return (
     <div>
-      <p>RecentPosts</p>
+      {masterRecentPostsList.map((recentPost, index) =>
+      <RecentPost url={recentPost.url}
+      image={recentPost.image}
+      headline={recentPost.headline}
+      subheadline={recentPost.subheadline}
+      key={index}/>
+      )}
     </div>
   );
 }
