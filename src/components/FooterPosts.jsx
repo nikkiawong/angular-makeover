@@ -9,8 +9,7 @@ function FooterPosts(){
     flexDirection: 'row',
     marginLeft: '7%',
     marginRight: '7%',
-    color: '#595959',
-    justifyContent: 'space-between'
+    color: '#595959'
   }
   const footerPostBackgroundStyles = {
     backgroundColor: '#f9f9f9',
