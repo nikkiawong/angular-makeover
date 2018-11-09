@@ -11,7 +11,8 @@ function Newsletter() {
     width: '80%',
     marginLeft: 'auto',
     marginRight: 'auto',
-    marginBottom: '10px'
+    marginBottom: '10px',
+    marginTop: '8px'
   }
   const newsletterLinkStyles = {
     color: '#dc2047',
