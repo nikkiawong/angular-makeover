@@ -9,7 +9,8 @@ function FooterPosts(){
     flexDirection: 'row',
     marginLeft: '7%',
     marginRight: '7%',
-    color: '#595959'
+    color: '#595959',
+    justifyContent: 'space-between'
   }
   return (
     <div>
