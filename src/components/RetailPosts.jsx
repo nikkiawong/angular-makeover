@@ -28,14 +28,14 @@ const masterRetailPostsList = [
 function RetailPosts(){
   return (
     <div>
-    {masterRetailPostsList.map((retailPost, index) =>
-    <RetailPost headline={retailPost.headline}
-    shop={retailPost.shop}
-    image={retailPost.image}
-    cost={retailPost.cost}
-    url={retailPost.url}
-    key={index}/>
-    )}
+      {masterRetailPostsList.map((retailPost, index) =>
+      <RetailPost headline={retailPost.headline}
+      shop={retailPost.shop}
+      image={retailPost.image}
+      cost={retailPost.cost}
+      url={retailPost.url}
+      key={index}/>
+      )}
     </div>
   );
 }
