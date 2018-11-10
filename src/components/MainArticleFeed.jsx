@@ -1,6 +1,7 @@
 import React from 'react';
 import RecentPosts from './RecentPosts';
 import RetailPosts from './RetailPosts';
+import TopFeaturedPost from './TopFeaturedPost';
 
 function MainArticleFeed(){
   const mainArticleFeedStyles = {
@@ -9,6 +10,7 @@ function MainArticleFeed(){
   }
   return (
     <div style={mainArticleFeedStyles}>
+      <TopFeaturedPost/>
       <RecentPosts/>
       <RetailPosts/>
     </div>
