@@ -11,15 +11,38 @@ const masterNewsPostsList = [
 ]
 
 function NewsPosts() {
+  const subsectionHeadlineStyles = {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  }
+  const subsectionH4Styles = {
+    textAlign: 'center',
+    fontSize: '22px',
+    color: '#dc2047',
+    border: '4px solid #dc2047',
+    marginLeft: '10px',
+    marginRight: '10px',
+    marginTop: '15px',
+    paddingTop: '5px',
+    paddingBottom: '5px',
+    paddingLeft: '8px',
+    paddingRight: '8px',
+  }
+  const lineStyles = {
+    border: '2px solid cyan',
+    width: '23%'
+  }
   return (
     <div>
-      <div>
-        <div></div>
+      <div style={subsectionHeadlineStyles}>
+        <div style={lineStyles}></div>
+        <div>
+          <h4 style={subsectionH4Styles}>WALT DISNEY STUDIO NEWS</h4>
+        </div>
+        <div style={lineStyles}></div>
       </div>
-      <div>
-        <h4>WALT DISNEY STUDIO NEWS</h4>
-      </div>
-      <div></div>
       {masterNewsPostsList.map((newsPost, index) =>
       <NewsPost url={newsPost.url}
       image={newsPost.image}

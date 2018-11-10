@@ -9,7 +9,7 @@ function Sidebar(){
   return (
     <div style={sidebarStyles}>
     <Newsletter/>
-      <PopularSidebar/>
+    <PopularSidebar/>
     </div>
   );
 }

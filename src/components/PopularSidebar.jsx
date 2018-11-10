@@ -27,6 +27,7 @@ const masterPopularSidebarList = [
 function PopularSidebar(){
   return (
     <div>
+      <h3>Popular Posts</h3>
       {masterPopularSidebarList.map((popularSidebarPost, index) =>
       <PopularSidebarPost headline={popularSidebarPost.headline}
       image={popularSidebarPost.image}
