@@ -6,7 +6,7 @@
 
 ## Description
 
-This application is a React remake of my Angular site rebuild of the Oh My Disney website.
+This application is a React remake of my Angular site rebuild of the Oh My Disney website. In contrast to Angular, building this project involved breaking down each piece of the site into much smaller pieces and heavily considering which individual elements on the page could be reused and how, especially in regard to difference in styling at different parts of the page.
 
 ## Angular Clone Site
 
@@ -14,6 +14,8 @@ Live Site: https://site-rebuild-d795b.firebaseapp.com/
 
 ## Planning
 <img src="./src/assets/images/components-01.jpg">
+
+To be updated
 
 ## Setup on OSX
 
@@ -29,6 +31,10 @@ Run `npm run start` for a dev server. Navigate to `http://localhost:8080/`. The 
 * React
 * Babel
 * Webpack
+
+## Notes
+* Had difficulty implementing if conditional
+* Many more components than initially planned for
 
 ## License
 
