@@ -25,7 +25,7 @@ const masterFooterFeaturedList = [
 ]
 
 function FooterFeatured(){
-  const footerPopularStyles = {
+  const footerFeaturedStyles = {
     width: '37%',
     borderRight: '1px solid #d8d8d8',
     paddingRight: '20px',
@@ -34,7 +34,7 @@ function FooterFeatured(){
     marginBottom: '10px'
   }
   return (
-    <div style={footerPopularStyles}>
+    <div style={footerFeaturedStyles}>
       <h3>Featured Posts</h3>
       {masterFooterFeaturedList.map((footerFeaturedPost, index) =>
       <FooterFeaturedPost headline={footerFeaturedPost.headline}

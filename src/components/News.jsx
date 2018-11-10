@@ -1,8 +1,13 @@
 import React from 'react';
+import NewsVideos from './NewsVideos';
+import NewsPosts from './NewsPosts';
 
 function News() {
   return (
-    <div>News</div>
+    <div>
+      <NewsVideos/>
+      <NewsPosts/>
+    </div>
   );
 }
 
