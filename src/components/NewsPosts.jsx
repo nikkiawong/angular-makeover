@@ -7,6 +7,12 @@ const masterNewsPostsList = [
     subheadline: "We can't wait to see them!",
     image: "https://ohmy.disney.com/wp-content/uploads/2018/08/Mickey-The-True-Original-Exhibition-242x141.jpg",
     url: "/post"
+  },
+  {
+    headline: "EVERYTHING YOU NEED TO KNOW ABOUT THE CHARACTERS POPULATING THE INTERNET IN RALPH BREAKS THE INTERNET",
+    subheadline: "Learn all about the difference between Netizens and Net Users.",
+    image: "https://ohmy.disney.com/wp-content/uploads/2018/11/yesss-ralph-breaks-the-internet-242x141.webp",
+    url: "https://ohmy.disney.com/news/2018/11/16/characters-ralph-breaks-the-internet/"
   }
 ]
 
