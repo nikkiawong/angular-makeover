@@ -13,9 +13,7 @@ This application is a React remake of my Angular site rebuild of the Oh My Disne
 Live Site: https://site-rebuild-d795b.firebaseapp.com/
 
 ## Planning
-<img src="./src/assets/images/updated_components-01.png">
-
-To be updated
+<img src="./src/assets/images/components-v3-01.png">
 
 ## Setup on OSX
 
@@ -35,6 +33,10 @@ Run `npm run start` for a dev server. Navigate to `http://localhost:8080/`. The 
 ## Notes
 * Had difficulty implementing if conditional
 * Many more components than initially planned for
+* From additional revisions:
+  * Challenge figuring out appropriate use of state for this application
+  * No currently working comments section on source site to refer to
+  * Would like to later add functionality to add new comments to the comments section
 
 ## License
 
