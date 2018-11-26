@@ -39,6 +39,9 @@ function PostPage() {
   const postPageImageStyles = {
     width: '100%'
   }
+  const commentsDivStyles = {
+    textAlign: 'center'
+  }
   return (
     <div>
       <div>
@@ -52,8 +55,9 @@ function PostPage() {
           <img src='https://ohmy.disney.com/wp-content/uploads/2018/10/3900.jpg' style={postPageImageStyles}></img>
           <p>“Mickey: The True Original Exhibition” runs from November 8, 2018 to February 10, 2019, and will be open Tuesday through Sunday from 10:00 a.m. to 8:00 p.m. The exhibition is located at 60 10th Avenue in New York City. Make sure to grab your tickets at Disney.com/MickeyTrueOriginal. We can’t wait to see you there!</p>
         </div>
-        <CommentsControl/>
-        <Route exact path='/comments' component={CommentsControl}/>
+        <div style={commentsDivStyles}>
+          <CommentsControl/>
+        </div>
       </div>
     </div>
   );
