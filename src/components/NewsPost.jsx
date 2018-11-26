@@ -30,7 +30,7 @@ function NewsPost(props) {
   }
   return (
     <div>
-    <Link style={newsPostLinkStyles} to="/post">
+    <Link style={newsPostLinkStyles} to={props.url}>
       <div style={newsPostStyles}>
         <div style={newsPostImageDivStyles}>
           <img style={newsPostImageStyles} src={props.image}></img>
