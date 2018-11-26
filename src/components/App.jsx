@@ -4,30 +4,19 @@ import FooterPosts from './FooterPosts';
 import FooterBottom from './FooterBottom';
 import News from './News';
 import MainArticleFeed from './MainArticleFeed';
-import Sidebar from './Sidebar';
 import PostPage from './PostPage';
 import { Switch, Route } from 'react-router-dom';
 
 function App(){
-  const articlesStyles = {
-    display: 'flex',
-    flexDirection: 'row',
-    marginLeft: '10%',
-    marginRight: '10%',
-    marginTop: '5%',
-    justifyContent: 'center',
-    alignItems: 'flex-start'
-  }
   return (
     <div>
       <Nav/>
-      <div style={articlesStyles}>
+      <div>
         <Switch>
           <Route exact path='/' component={MainArticleFeed} />
           <Route exact path='/news' component={News}/>
           <Route exact path='/post' component={PostPage}/>
         </Switch>
-        <Sidebar/>
       </div>
       <FooterPosts/>
       <FooterBottom/>

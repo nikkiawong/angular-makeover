@@ -1,8 +1,18 @@
 import React from 'react';
 import NewsVideos from './NewsVideos';
 import NewsPosts from './NewsPosts';
+import Sidebar from './Sidebar';
 
 function News() {
+  const articlesStyles = {
+    display: 'flex',
+    flexDirection: 'row',
+    marginLeft: '10%',
+    marginRight: '10%',
+    marginTop: '5%',
+    justifyContent: 'center',
+    alignItems: 'flex-start'
+  }
   const newsVideosHeadlineStyles = {
     fontSize: '38px',
     textAlign: 'center',
@@ -19,10 +29,13 @@ function News() {
     marginRight: '3%'
   }
   return (
-    <div style={newsStyles}>
-      <h2 style={newsVideosHeadlineStyles}>NEWS</h2>
-      <NewsVideos/>
-      <NewsPosts/>
+    <div style={articlesStyles}>
+      <div style={newsStyles}>
+        <h2 style={newsVideosHeadlineStyles}>NEWS</h2>
+        <NewsVideos/>
+        <NewsPosts/>
+      </div>
+      <Sidebar/>
     </div>
   );
 }
