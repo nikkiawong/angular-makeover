@@ -40,7 +40,8 @@ function PostPage() {
     width: '100%'
   }
   const commentsDivStyles = {
-    textAlign: 'center'
+    textAlign: 'center',
+    marginTop: '40px'
   }
   return (
     <div>

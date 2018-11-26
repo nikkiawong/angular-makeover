@@ -26,7 +26,7 @@ class CommentsControl extends React.Component {
     }
     return (
       <div>
-        <p style={{fontSize: '18px', textTransform: 'uppercase', fontWeight: '700', backgroundColor: 'cyan', width: '150px', padding: '5px', marginLeft: 'auto', marginRight: 'auto'}} onClick={this.showComments}>See Comments</p>
+        <p style={{fontSize: '18px', textTransform: 'uppercase', fontWeight: '700', backgroundColor: 'cyan', width: '150px', padding: '5px', marginLeft: 'auto', marginRight: 'auto', marginBottom: '25px'}} onClick={this.showComments}>See Comments</p>
         {commentSection}
       </div>
     );
