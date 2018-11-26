@@ -5,6 +5,7 @@ import FooterBottom from './FooterBottom';
 import News from './News';
 import MainArticleFeed from './MainArticleFeed';
 import Sidebar from './Sidebar';
+import PostPage from './PostPage';
 import { Switch, Route } from 'react-router-dom';
 
 function App(){
@@ -24,6 +25,7 @@ function App(){
         <Switch>
           <Route exact path='/' component={MainArticleFeed} />
           <Route exact path='/news' component={News}/>
+          <Route exact path='/post' component={PostPage}/>
         </Switch>
         <Sidebar/>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 function NewsPost(props) {
   const newsPostStyles = {
@@ -29,17 +30,17 @@ function NewsPost(props) {
   }
   return (
     <div>
-      <a style={newsPostLinkStyles} href={props.url}>
-        <div style={newsPostStyles}>
-          <div style={newsPostImageDivStyles}>
-            <img style={newsPostImageStyles} src={props.image}></img>
-          </div>
-          <div style={newsPostContentStyles}>
-            <h3 style={newsPostHeadlineStyles}>{props.headline}</h3>
-            <p>{props.subheadline}</p>
-          </div>
+    <Link style={newsPostLinkStyles} to="/post">
+      <div style={newsPostStyles}>
+        <div style={newsPostImageDivStyles}>
+          <img style={newsPostImageStyles} src={props.image}></img>
         </div>
-      </a>
+        <div style={newsPostContentStyles}>
+          <h3 style={newsPostHeadlineStyles}>{props.headline}</h3>
+          <p>{props.subheadline}</p>
+        </div>
+      </div>
+    </Link>
     </div>
   );
 }
