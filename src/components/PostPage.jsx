@@ -19,7 +19,7 @@ function PostPage() {
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
-    marginTop: '-20px'
+    marginTop: '-16px'
   }
   const h1Styles = {
     textAlign: 'center',
