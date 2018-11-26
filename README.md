@@ -13,7 +13,7 @@ This application is a React remake of my Angular site rebuild of the Oh My Disne
 Live Site: https://site-rebuild-d795b.firebaseapp.com/
 
 ## Planning
-<img src="./src/assets/images/components-01.jpg">
+<img src="./src/assets/images/updated_components-01.png">
 
 To be updated
 
