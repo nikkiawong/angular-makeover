@@ -1,6 +1,8 @@
+const newrelic = require('newrelic');
 const webpack = require('webpack');
 const { resolve } = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
 
@@ -15,6 +17,10 @@ module.exports = {
     filename: 'app.bundle.js',
     path: resolve(__dirname, 'build'),
     publicPath: '/'
+  },
+
+  externals: {
+    newrelic: true
   },
 
   resolve: {
